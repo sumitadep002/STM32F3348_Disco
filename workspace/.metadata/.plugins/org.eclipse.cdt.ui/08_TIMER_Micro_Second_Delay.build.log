@@ -1,0 +1,17 @@
+15:09:37 **** Incremental Build of configuration Debug for project 08_TIMER_Micro_Second_Delay ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F334x8 -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "08_TIMER_Micro_Second_Delay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sumit/Desktop/GitHub/STM32/workspace/08_TIMER_Micro_Second_Delay/STM32F334C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="08_TIMER_Micro_Second_Delay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 08_TIMER_Micro_Second_Delay.elf
+ 
+arm-none-eabi-size   08_TIMER_Micro_Second_Delay.elf 
+arm-none-eabi-objdump -h -S  08_TIMER_Micro_Second_Delay.elf  > "08_TIMER_Micro_Second_Delay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8768	     20	   1644	  10432	   28c0	08_TIMER_Micro_Second_Delay.elf
+Finished building: default.size.stdout
+ 
+Finished building: 08_TIMER_Micro_Second_Delay.list
+ 
+
+15:09:38 Build Finished. 0 errors, 0 warnings. (took 858ms)
+

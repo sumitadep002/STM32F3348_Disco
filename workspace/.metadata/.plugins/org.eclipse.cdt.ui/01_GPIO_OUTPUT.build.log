@@ -1,0 +1,17 @@
+22:00:49 **** Incremental Build of configuration Debug for project 01_GPIO_OUTPUT ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F334x8 -c -I../Core/Inc -I/home/sumit/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/sumit/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/sumit/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/sumit/STM32Cube/Repository/STM32Cube_FW_F3_V1.11.4/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "01_GPIO_OUTPUT.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sumit/Desktop/GitHub/STM32/workspace/01_GPIO_OUTPUT/STM32F334C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01_GPIO_OUTPUT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 01_GPIO_OUTPUT.elf
+ 
+arm-none-eabi-size   01_GPIO_OUTPUT.elf 
+arm-none-eabi-objdump -h -S  01_GPIO_OUTPUT.elf  > "01_GPIO_OUTPUT.list"
+   text	   data	    bss	    dec	    hex	filename
+   7984	     20	   1572	   9576	   2568	01_GPIO_OUTPUT.elf
+Finished building: default.size.stdout
+ 
+Finished building: 01_GPIO_OUTPUT.list
+ 
+
+22:00:49 Build Finished. 0 errors, 0 warnings. (took 608ms)
+

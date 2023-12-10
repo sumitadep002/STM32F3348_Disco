@@ -1,0 +1,62 @@
+12:08:50 **** Incremental Build of configuration Debug for project 09_RTC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F334x8 -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:82:40: warning: passing argument 2 of 'HAL_RTC_GetDate' from incompatible pointer type [-Wincompatible-pointer-types]
+   82 |                 HAL_RTC_GetDate(&hrtc, &sDate, RTC_FORMAT_BIN);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        RTC_TypeDef *
+In file included from ../Core/Inc/stm32f3xx_hal_conf.h:299,
+                 from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:4:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rtc.h:720:77: note: expected 'RTC_DateTypeDef *' but argument is of type 'RTC_TypeDef *'
+  720 | HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:83:40: warning: passing argument 2 of 'HAL_RTC_GetTime' from incompatible pointer type [-Wincompatible-pointer-types]
+   83 |                 HAL_RTC_GetTime(&hrtc, &sTime, RTC_FORMAT_BCD);
+      |                                        ^~~~~~
+      |                                        |
+      |                                        RTC_TypeDef *
+In file included from ../Core/Inc/stm32f3xx_hal_conf.h:299,
+                 from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:4:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rtc.h:718:77: note: expected 'RTC_TimeTypeDef *' but argument is of type 'RTC_TypeDef *'
+  718 | HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:85:70: error: 'RTC_TypeDef' has no member named 'Hours'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                      ^
+../Core/Src/main.c:85:82: error: 'RTC_TypeDef' has no member named 'Minutes'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                                  ^
+../Core/Src/main.c:85:97: error: 'RTC_TypeDef' has no member named 'Seconds'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                                                 ^
+../Core/Src/main.c:85:112: error: 'RTC_TypeDef' has no member named 'Date'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                                                                ^
+../Core/Src/main.c:85:124: error: 'RTC_TypeDef' has no member named 'Month'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                                                                            ^
+../Core/Src/main.c:85:136: error: 'RTC_TypeDef' has no member named 'Year'
+   85 |                 sprintf(time_date, "%d.%d.%d and %d.%d.%d\r\n", sTime.Hours,sTime.Minutes, sTime.Seconds, sDate.Date, sDate.Month,sDate.Year);
+      |                                                                                                                                        ^
+../Core/Src/main.c:86:66: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   86 |                 HAL_UART_Transmit(&huart1, (uint8_t*) time_date, strlen(time_date),HAL_MAX_DELAY);
+      |                                                                  ^~~~~~
+../Core/Src/main.c:11:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   10 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   11 | /* USER CODE END Includes */
+../Core/Src/main.c:86:66: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   86 |                 HAL_UART_Transmit(&huart1, (uint8_t*) time_date, strlen(time_date),HAL_MAX_DELAY);
+      |                                                                  ^~~~~~
+../Core/Src/main.c:86:66: note: include '<string.h>' or provide a declaration of 'strlen'
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+12:08:50 Build Failed. 7 errors, 4 warnings. (took 516ms)
+

@@ -1,0 +1,87 @@
+2023-09-09 23:08:54,891 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,561x227,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:13:57,797 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:13:58,759 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:01,035 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:08,880 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:08,996 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:12,303 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:13,551 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:14:14,959 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:16:09,767 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:16:48,446 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:16:52,087 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:19:24,470 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:20:41,473 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:20:42,707 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:22:09,963 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 610128608 Bytes (843055104)
+2023-09-09 23:22:10,273 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 627042208 Bytes (843055104)
+2023-09-09 23:22:11,008 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 692802720 Bytes (843055104)
+2023-09-09 23:22:11,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-09 23:22:11,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-09-09 23:22:11,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-09 23:22:11,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-09 23:22:11,605 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-09 23:22:11,616 [INFO] CodeGenerator:799 - code generatio: config db path: /opt/st/stm32cubeide_1.13.1/plugins/com.st.stm32cube.common.mx_6.9.1.202307191849//db/
+2023-09-09 23:22:12,017 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/license.tmp_save
+2023-09-09 23:22:12,164 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/license.tmp
+2023-09-09 23:22:12,238 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/gpio.tmp_save
+2023-09-09 23:22:12,354 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/gpio.tmp
+2023-09-09 23:22:12,588 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_it.c_save
+2023-09-09 23:22:12,838 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_it.c
+2023-09-09 23:22:12,841 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_it.h_save
+2023-09-09 23:22:12,947 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_it.h
+2023-09-09 23:22:12,969 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_hal_msp.c_save
+2023-09-09 23:22:13,189 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_hal_msp.c
+2023-09-09 23:22:13,194 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/system.tmp_save
+2023-09-09 23:22:13,418 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/system.tmp
+2023-09-09 23:22:13,429 [INFO] CodeEngine:311 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_hal_conf.h_save
+2023-09-09 23:22:13,553 [INFO] CodeEngine:335 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_hal_conf.h
+2023-09-09 23:22:13,572 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-09-09 23:22:13,573 [WARN] CodeGenerator:3760 - IP not found : null
+2023-09-09 23:22:13,577 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/main.h_save
+2023-09-09 23:22:13,713 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/main.h
+2023-09-09 23:22:13,717 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/main.c_save
+2023-09-09 23:22:13,890 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/main.c
+2023-09-09 23:22:15,262 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 703mS.
+2023-09-09 23:22:15,266 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-09 23:22:15,638 [INFO] ConfigFileManager:1457 - The Die is : DIE438
+2023-09-09 23:22:18,134 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 2869mS.
+2023-09-09 23:22:18,135 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-09 23:22:18,136 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-09 23:22:29,186 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-09 23:22:39,379 [INFO] Gpio:273 - dependency for GPIO [SYS]
+2023-09-09 23:22:54,873 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 369616632 Bytes (990904320)
+2023-09-09 23:22:55,041 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 387779264 Bytes (990904320)
+2023-09-09 23:22:55,736 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 443539192 Bytes (990904320)
+2023-09-09 23:22:56,066 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-09 23:22:56,067 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F3
+2023-09-09 23:22:56,067 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-09 23:22:56,067 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-09 23:22:56,067 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-09 23:22:56,068 [INFO] CodeGenerator:799 - code generatio: config db path: /opt/st/stm32cubeide_1.13.1/plugins/com.st.stm32cube.common.mx_6.9.1.202307191849//db/
+2023-09-09 23:22:56,355 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/license.tmp_save
+2023-09-09 23:22:56,471 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/license.tmp
+2023-09-09 23:22:56,504 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/gpio.tmp_save
+2023-09-09 23:22:56,610 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/gpio.tmp
+2023-09-09 23:22:56,670 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_it.c_save
+2023-09-09 23:22:56,783 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_it.c
+2023-09-09 23:22:56,786 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_it.h_save
+2023-09-09 23:22:56,944 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_it.h
+2023-09-09 23:22:56,951 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_hal_msp.c_save
+2023-09-09 23:22:57,113 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/stm32f3xx_hal_msp.c
+2023-09-09 23:22:57,116 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/system.tmp_save
+2023-09-09 23:22:57,218 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/MXTmpFiles/system.tmp
+2023-09-09 23:22:57,224 [INFO] CodeEngine:311 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_hal_conf.h_save
+2023-09-09 23:22:57,334 [INFO] CodeEngine:335 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/stm32f3xx_hal_conf.h
+2023-09-09 23:22:57,355 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-09-09 23:22:57,356 [WARN] CodeGenerator:3760 - IP not found : null
+2023-09-09 23:22:57,360 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/main.h_save
+2023-09-09 23:22:57,470 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Inc/main.h
+2023-09-09 23:22:57,473 [INFO] CodeEngine:255 - oldGeneratedFile, /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/main.c_save
+2023-09-09 23:22:57,708 [INFO] CodeEngine:279 - Generated code: /home/sumit/Desktop/GitHub/STM32/workspace/03_TIMER_INTERRUPT/Core/Src/main.c
+2023-09-09 23:22:58,321 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 40mS.
+2023-09-09 23:22:58,323 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-09 23:22:58,652 [INFO] ConfigFileManager:1457 - The Die is : DIE438
+2023-09-09 23:23:00,743 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 2420mS.
+2023-09-09 23:23:00,744 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-09 23:23:00,745 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
